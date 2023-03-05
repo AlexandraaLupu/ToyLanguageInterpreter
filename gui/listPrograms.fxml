@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="547.0" prefWidth="600.0" style="-fx-background-color: #4f100a; -fx-fx-border-color: #ebc28d; -fx-border-width: 15;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.listProgramsController">
+   <children>
+      <ListView fx:id="programsListView" opacity="0.95" prefHeight="404.0" prefWidth="530.0" style="-fx-background-color: #fcfaf7;" stylesheets="@programs.css">
+         <VBox.margin>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </VBox.margin>
+      </ListView>
+      <Button fx:id="displayButton" mnemonicParsing="false" onAction="#displayProgramAction" prefHeight="57.0" prefWidth="122.0" style="-fx-background-color: #eddeca; -fx-border-color: #c28e3c; -fx-border-width: 5;" text="Display" textAlignment="CENTER">
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+         <font>
+            <Font name="Times New Roman" size="25.0" />
+         </font>
+      </Button>
+   </children>
+</VBox>
